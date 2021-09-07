@@ -1,0 +1,56 @@
+{
+  "name": "cafeca",
+  "version": "1.0.0",
+  "description": "CAFECA Framework for Front End and Back End",
+  "main": "bin/main.js",
+  "bin": {
+    "cafeca": "bin/main.js"
+  },
+  "scripts": {
+    "start": "bin/main.js",
+    "dev": "webpack-dev-server --mode development --open 'google chrome'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAFECA-IO/cafeca-web.git"
+  },
+  "keywords": [
+    "frontend",
+    "backend",
+    "framework"
+  ],
+  "author": "CAFECA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CAFECA-IO/cafeca-web/issues"
+  },
+  "homepage": "https://github.com/CAFECA-IO/cafeca-web#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "dvalue": "^1.0.20",
+    "ecrequest": "^1.1.5",
+    "i18n": "^0.13.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa-static": "^5.0.0",
+    "ncp": "^2.0.0",
+    "pem": "^1.14.4",
+    "spdy": "^4.0.2",
+    "sqlite3": "^5.0.2",
+    "toml": "^3.0.0",
+    "ws": "^8.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "css-loader": "^2.1.0",
+    "koa-webpack": "^5.2.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  }
+}

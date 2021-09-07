@@ -1,0 +1,19 @@
+# CAFECA Default Config
+
+title = "CAFECA"
+
+[base]
+folder = "CAFECA-framework"
+static = "./build/frontend/"
+debug = false
+
+[blockchain]
+type = "ethereum"
+
+[database]
+
+
+[api]
+pathname = [
+  "get | /,/version | Static.Utils.readPackageInfo"
+]
