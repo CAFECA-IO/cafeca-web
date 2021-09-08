@@ -13,18 +13,12 @@ function getExternals()
 
 const frontend = {
   mode: 'none',
-  entry: path.resolve(__dirname, 'src/frontend/main.js'),
+  entry: path.resolve(__dirname, 'src/frontend/App.js'),
   output: {
     path: path.resolve(__dirname, 'build/frontend'),
-    filename: 'main.js',
+    filename: 'App.js',
     chunkFilename: '[id].js'
-  },
-  module: {
-  },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
-  ]
+  }
 };
 
 const backend = {

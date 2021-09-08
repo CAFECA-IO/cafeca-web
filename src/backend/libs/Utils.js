@@ -2,7 +2,6 @@ const os = require('os');
 const fs = require('fs');
 const path = require('path');
 const url = require('url');
-const sqlite = require('sqlite3');
 const toml = require('toml');
 const i18n = require("i18n");
 const dvalue = require('dvalue');
@@ -422,8 +421,7 @@ class Utils {
 
   static initialDB({ homeFolder }) {
     const dbPath = path.resolve(homeFolder, 'dataset');
-
-    return new sqlite.Database(dbPath)
+    return {};
   }
 
   static initialLogger({ homeFolder, base }) {
