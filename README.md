@@ -2,7 +2,7 @@
 Frontend And Backend Framework For CAFECA
 
 # prepare environment
-- Install Node Stable version https://nodejs.org/
+- Install Node Stable version [v14.17.6](https://nodejs.org/dist/v14.17.6/)
 
 # deploy
 ## clone
