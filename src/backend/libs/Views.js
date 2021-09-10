@@ -7,7 +7,6 @@ class Views {
   static async getTemplate({ view }) {
     const filePath = path.resolve(__dirname, '../templates', `${view}.tmpl`);
     const buffer = await Utils.readFile({ filePath });
-    console.log(filePath);
     return buffer.toString();
   }
 
