@@ -273,6 +273,10 @@ class Utils {
     });
   }
 
+  static getLocaleData() {
+    return {}
+  }
+
   static listProcess() {
     return this.readPackageInfo()
     .then((packageInfo) => {
