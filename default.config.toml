@@ -15,7 +15,5 @@ type = "ethereum"
 
 [api]
 pathname = [
-  "get | / | Static.Views.index",
-  "get | /manifest, /manifest.json | Static.Views.manifest",
   "get | /version | Static.Utils.readPackageInfo"
 ]
