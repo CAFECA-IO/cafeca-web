@@ -65,7 +65,6 @@ const frontend = {
       ],
     }),
   ],
-  devtool: "cheap-module-source-map",
 };
 
 module.exports = [frontend];
