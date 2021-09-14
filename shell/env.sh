@@ -16,7 +16,8 @@ sudo swapon /swapfile
 echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
 
 
-NODE_VERSION="v10.16.3"
+NODE_FULLFILENAME=$(curl https://nodejs.org/dist/latest/SHASUMS256.txt | grep linux-x64.tar.gz | cut -d ' ' -f 3)
+NODE_VERSION=$(echo $NODE_FULLFILENAME | cut -d '-' -f 2)
 NODE_FILENAME="node-$NODE_VERSION-linux-x64"
 PARENT_LOCATION="/opt/nodejs"
 
