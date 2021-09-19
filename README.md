@@ -1,5 +1,5 @@
 # CAFECA-WEB
-Frontend And Backend Framework For CAFECA
+Frontend Framework For CAFECA
 
 # prepare environment
 - Setup SWAP
